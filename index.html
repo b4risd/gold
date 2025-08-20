@@ -4,36 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- =================================================================== -->
-    <!-- TEMEL SEO ETİKETLERİ -->
-    <!-- =================================================================== -->
-    
-    <title>Çeyrek Altın Ne Kadar? En Güncel Canlı Altın Fiyatları</title>
-    <meta name="description" content="Çeyrek altın ne kadar? En güncel ve canlı çeyrek altın, gram altın, tam altın ve cumhuriyet altını fiyatlarını anlık olarak takip edin.">
-    
    
-    <link rel="canonical" href="https://ceyrekaltinnekadar.tr">
-    <link rel="alternate" hreflang="tr" href="https://ceyrekaltinnekadar.tr">
+    <!-- =================================================================== -->
+    <title>Ã‡eyrek AltÄ±n Ne Kadar? En GÃ¼ncel CanlÄ± AltÄ±n FiyatlarÄ±</title>
+    <meta name="description" content="Ã‡eyrek altÄ±n ne kadar? En gÃ¼ncel ve canlÄ± Ã§eyrek altÄ±n, gram altÄ±n, tam altÄ±n ve cumhuriyet altÄ±nÄ± fiyatlarÄ±nÄ± anlÄ±k olarak takip edin.">
+    
+    <!-- Arama motorlarÄ±na sayfanÄ±n ana dilini ve URL'sini belirtir -->
+    <!-- Ã–NEMLÄ°: "https://www.ceyrekaltinnekadar.com" kÄ±smÄ±nÄ± kendi domain adresinizle deÄŸiÅŸtirin -->
+    <link rel="canonical" href="https://www.ceyrekaltinnekadar.com">
+    <link rel="alternate" hreflang="tr" href="https://www.ceyrekaltinnekadar.com">
 
-    <!-- Arama motoru botları için direktifler -->
+    <!-- Arama motoru botlarÄ± iÃ§in direktifler -->
     <meta name="robots" content="index, follow">
 
     <!-- =================================================================== -->
-    <!-- SOSYAL MEDYA PAYLAŞIM (OPEN GRAPH) ETİKETLERİ -->
+    <!-- SOSYAL MEDYA PAYLAÅIM (OPEN GRAPH) ETÄ°KETLERÄ° -->
     <!-- =================================================================== -->
-    <meta property="og:title" content="Çeyrek Altın Ne Kadar? En Güncel Canlı Altın Fiyatları">
-    <meta property="og:description" content="Anlık çeyrek altın, gram altın ve diğer altın türlerinin fiyatlarını takip edin.">
+    <meta property="og:title" content="Ã‡eyrek AltÄ±n Ne Kadar? En GÃ¼ncel CanlÄ± AltÄ±n FiyatlarÄ±">
+    <meta property="og:description" content="AnlÄ±k Ã§eyrek altÄ±n, gram altÄ±n ve diÄŸer altÄ±n tÃ¼rlerinin fiyatlarÄ±nÄ± takip edin.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://ceyrekaltinnekadar.tr">
-    <meta property="og:site_name" content="Çeyrek Altın Ne Kadar?">
-    <!-- ÖNEMLİ: Paylaşımlarda görünecek bir resim URL'si ekleyin. Örnek: -->
+    <meta property="og:url" content="https://www.ceyrekaltinnekadar.com">
+    <meta property="og:site_name" content="Ã‡eyrek AltÄ±n Ne Kadar?">
+    <!-- Ã–NEMLÄ°: PaylaÅŸÄ±mlarda gÃ¶rÃ¼necek bir resim URL'si ekleyin. Ã–rnek: -->
     <meta property="og:image" content="https://placehold.co/1200x630/FBBF24/333333?text=Canl%C4%B1+Alt%C4%B1n+Fiyatlar%C4%B1">
     <meta property="og:locale" content="tr_TR">
 
     <!-- Twitter Card Etiketleri -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Çeyrek Altın Ne Kadar? En Güncel Canlı Altın Fiyatları">
-    <meta name="twitter:description" content="Anlık çeyrek altın, gram altın ve diğer altın türlerinin fiyatlarını takip edin.">
+    <meta name="twitter:title" content="Ã‡eyrek AltÄ±n Ne Kadar? En GÃ¼ncel CanlÄ± AltÄ±n FiyatlarÄ±">
+    <meta name="twitter:description" content="AnlÄ±k Ã§eyrek altÄ±n, gram altÄ±n ve diÄŸer altÄ±n tÃ¼rlerinin fiyatlarÄ±nÄ± takip edin.">
     <meta name="twitter:image" content="https://placehold.co/1200x630/FBBF24/333333?text=Canl%C4%B1+Alt%C4%B1n+Fiyatlar%C4%B1">
     
     <!-- Tailwind CSS -->
@@ -45,83 +44,224 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     
     <style>
-      
         body { 
             font-family: 'Inter', sans-serif; 
             background-color: #f8fafc; /* slate-50 */
             color: #1e293b; /* slate-800 */
         }
+        /* SSS akordiyonu iÃ§in stil */
+        details > summary {
+            list-style: none;
+        }
+        details > summary::-webkit-details-marker {
+            display: none;
+        }
+        details[open] summary .arrow-down {
+            transform: rotate(180deg);
+        }
+        /* YENÄ°: CanlÄ± gÃ¶stergesi iÃ§in yanÄ±p sÃ¶nen yeÅŸil nokta */
+        .live-indicator {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            background-color: #22c55e; /* green-500 */
+            border-radius: 50%;
+            margin-left: 12px;
+            animation: pulse-live 1.5s infinite;
+            box-shadow: 0 0 0 0 rgba(34, 197, 94, 1);
+        }
+        @keyframes pulse-live {
+            0% {
+                transform: scale(0.95);
+                box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
+            }
+            70% {
+                transform: scale(1);
+                box-shadow: 0 0 0 10px rgba(34, 197, 94, 0);
+            }
+            100% {
+                transform: scale(0.95);
+                box-shadow: 0 0 0 0 rgba(34, 197, 94, 0);
+            }
+        }
     </style>
 </head>
 <body class="antialiased">
 
-    <!-- Ana İçerik Alanı -->
+    <!-- Ana Ä°Ã§erik AlanÄ± -->
     <main class="container mx-auto px-4 py-12 md:py-20 max-w-5xl text-center">
 
-        <!-- Başlık -->
-        <h1 class="text-4xl md:text-6xl font-bold mb-8 bg-gradient-to-r from-yellow-600 to-amber-400 bg-clip-text text-transparent leading-snug">
-            Çeyrek Altın Ne Kadar? En Güncel Canlı Altın Fiyatları
+        <!-- BaÅŸlÄ±k -->
+        <h1 class="text-4xl md:text-6xl font-bold mb-8 bg-gradient-to-r from-yellow-600 to-amber-400 bg-clip-text text-transparent leading-normal">
+            Ã‡eyrek AltÄ±n Ne Kadar? En GÃ¼ncel CanlÄ± AltÄ±n FiyatlarÄ±
         </h1>
 
-        <!-- Açıklama Metni -->
-        <p class="text-base md:text-lg text-slate-600 mb-12 leading-relaxed max-w-3xl mx-auto">
-            <strong>Çeyrek altın ne kadar?</strong> sorusu, hem yatırımcıların hem de düğün gibi özel günler için hediye alacakların en çok merak ettiği konuların başında gelir. Türkiye'de en yaygın yatırım ve hediyeleşme araçlarından biri olan çeyrek altın, değeri, kolay ulaşılabilirliği ve taşınabilirliği ile öne çıkar. Bu sayfa, sizlere en güncel ve canlı çeyrek altın fiyatlarını anlık olarak sunmak için tasarlanmıştır. Altın fiyatları, küresel piyasalardaki gelişmeler, döviz kurları ve merkez bankalarının politikaları gibi birçok faktörden etkilenerek gün içinde sürekli olarak değişiklik gösterir. Bu nedenle, doğru ve güvenilir bilgiye hızlıca ulaşmak büyük önem taşır. Burada sadece çeyrek altın değil, aynı zamanda gram, yarım, tam ve cumhuriyet altını gibi diğer popüler altın türlerinin de alış ve satış fiyatlarını bulabilirsiniz. Ayrıca, "Altın Hesaplayıcı" aracımızla elinizdeki altın miktarının Türk Lirası karşılığını kolayca hesaplayabilirsiniz.
-        </p>
+        <!-- AÃ§Ä±klama Metni -->
+        <div class="max-w-3xl mx-auto text-left">
+            <p class="text-base md:text-lg text-slate-600 mb-6 leading-relaxed">
+                <strong>Ã‡eyrek altÄ±n ne kadar?</strong> sorusu, hem yatÄ±rÄ±mcÄ±larÄ±n hem de dÃ¼ÄŸÃ¼n gibi Ã¶zel gÃ¼nler iÃ§in hediye alacaklarÄ±n en Ã§ok merak ettiÄŸi konularÄ±n baÅŸÄ±nda gelir. TÃ¼rkiye'de en yaygÄ±n yatÄ±rÄ±m ve hediyeleÅŸme araÃ§larÄ±ndan biri olan Ã§eyrek altÄ±n, deÄŸeri, kolay ulaÅŸÄ±labilirliÄŸi ve taÅŸÄ±nabilirliÄŸi ile Ã¶ne Ã§Ä±kar. Bu sayfa, sizlere en gÃ¼ncel ve canlÄ± Ã§eyrek altÄ±n fiyatlarÄ±nÄ± anlÄ±k olarak sunmak iÃ§in tasarlanmÄ±ÅŸtÄ±r.
+            </p>
+            <p class="text-base md:text-lg text-slate-600 mb-12 leading-relaxed">
+                AltÄ±n fiyatlarÄ±, kÃ¼resel piyasalardaki geliÅŸmeler, dÃ¶viz kurlarÄ± ve merkez bankalarÄ±nÄ±n politikalarÄ± gibi birÃ§ok faktÃ¶rden etkilenerek gÃ¼n iÃ§inde sÃ¼rekli olarak deÄŸiÅŸiklik gÃ¶sterir. Bu nedenle, doÄŸru ve gÃ¼venilir bilgiye hÄ±zlÄ±ca ulaÅŸmak bÃ¼yÃ¼k Ã¶nem taÅŸÄ±r. Burada sadece Ã§eyrek altÄ±n deÄŸil, aynÄ± zamanda gram, yarÄ±m, tam ve cumhuriyet altÄ±nÄ± gibi diÄŸer popÃ¼ler altÄ±n tÃ¼rlerinin de alÄ±ÅŸ ve satÄ±ÅŸ fiyatlarÄ±nÄ± bulabilirsiniz. AyrÄ±ca, "AltÄ±n HesaplayÄ±cÄ±" aracÄ±mÄ±zla elinizdeki altÄ±n miktarÄ±nÄ±n TÃ¼rk LirasÄ± karÅŸÄ±lÄ±ÄŸÄ±nÄ± kolayca hesaplayabilirsiniz.
+            </p>
+        </div>
 
-        <!-- Canlı Fiyat Bölümü (iFrame ile) -->
-        <section class="mb-16">
-            <h2 class="text-3xl md:text-4xl font-semibold mb-6 text-slate-800">
-                En Güncel Altın Fiyatları
+        <!-- CanlÄ± Fiyat BÃ¶lÃ¼mÃ¼ (iFrame ile) -->
+        <section class="mb-12">
+            <!-- DEÄÄ°ÅÄ°KLÄ°K BURADA: BaÅŸlÄ±ÄŸa flex ve canlÄ± gÃ¶sterge eklendi -->
+            <h2 class="text-3xl md:text-4xl font-semibold mb-6 text-slate-800 flex items-center justify-center">
+                En GÃ¼ncel AltÄ±n FiyatlarÄ±
+                <span class="live-indicator" title="Fiyatlar CanlÄ± Olarak GÃ¼ncellenmektedir"></span>
             </h2>
             <div class="w-full max-w-4xl mx-auto bg-white p-2 rounded-xl shadow-md border border-slate-200">
-                 <iframe src="https://api.genelpara.com/iframe/?symbol=altin&altin=GA,C,Y,T,CMR&stil=stil-5&renk=beyaz" title="Altın Fiyatları" frameborder="0" width="100%" height="500" style="width:100%; height:500px; border-radius: 0.5rem;"></iframe>
+                 <iframe src="https://api.genelpara.com/iframe/?symbol=altin&altin=GA,C,Y,T,CMR&stil=stil-5&renk=beyaz" title="AltÄ±n FiyatlarÄ±" frameborder="0" width="100%" height="500" style="width:100%; height:500px; border-radius: 0.5rem;"></iframe>
             </div>
         </section>
 
-        <!-- Altın Hesaplayıcı Bölümü -->
+        <!-- Sosyal Medya PaylaÅŸÄ±m ButonlarÄ± -->
+        <section class="mb-16">
+            <div id="social-share" class="flex justify-center items-center space-x-4">
+                <span class="text-slate-600 font-semibold">SayfayÄ± PaylaÅŸ:</span>
+                <!-- WhatsApp -->
+                <a href="#" id="whatsapp-share" target="_blank" class="p-2 bg-green-500 text-white rounded-full hover:bg-green-600 transition-colors" title="WhatsApp'ta PaylaÅŸ">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                </a>
+                <!-- X (Twitter) -->
+                <a href="#" id="twitter-share" target="_blank" class="p-2 bg-gray-800 text-white rounded-full hover:bg-gray-900 transition-colors" title="X'te PaylaÅŸ">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg>
+                </a>
+                <!-- Facebook -->
+                <a href="#" id="facebook-share" target="_blank" class="p-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-colors" title="Facebook'ta PaylaÅŸ">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                </a>
+            </div>
+        </section>
+
+        <!-- AltÄ±n HesaplayÄ±cÄ± BÃ¶lÃ¼mÃ¼ -->
         <section class="bg-white rounded-xl p-6 md:p-8 mb-16 shadow-md border border-slate-200">
             <h2 class="text-3xl md:text-4xl font-semibold mb-8 text-slate-800">
-                Altın Hesaplayıcı
+                AltÄ±n HesaplayÄ±cÄ±
             </h2>
             <div class="grid grid-cols-1 md:grid-cols-4 gap-4 items-center max-w-3xl mx-auto">
-                <input type="text" id="gold-price-input" class="w-full p-3 text-lg border-slate-300 rounded-lg shadow-sm focus:border-amber-500 focus:ring focus:ring-amber-500 focus:ring-opacity-50 md:col-span-1" placeholder="Fiyat (örn: 7200)">
-                
-                <input type="number" id="gold-quantity-input" class="w-full p-3 text-lg border-slate-300 rounded-lg shadow-sm focus:border-amber-500 focus:ring focus:ring-amber-500 focus:ring-opacity-50 md:col-span-1" placeholder="Adet (örn: 3)" min="1">
-                
+                <input type="text" id="gold-price-input" class="w-full p-3 text-lg border-slate-300 rounded-lg shadow-sm focus:border-amber-500 focus:ring focus:ring-amber-500 focus:ring-opacity-50 md:col-span-1" placeholder="Fiyat (Ã¶rn: 7200)">
+                <input type="number" id="gold-quantity-input" class="w-full p-3 text-lg border-slate-300 rounded-lg shadow-sm focus:border-amber-500 focus:ring focus:ring-amber-500 focus:ring-opacity-50 md:col-span-1" placeholder="Adet (Ã¶rn: 3)" min="1">
                 <button id="calculate-btn" class="w-full p-3 text-lg bg-gradient-to-r from-amber-500 to-yellow-400 text-white font-bold rounded-lg shadow-md hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200 h-full">Hesapla</button>
-
                 <div id="result-container" class="bg-slate-100 border border-slate-200 text-slate-800 p-3 rounded-lg text-xl font-bold flex items-center justify-center h-full md:col-span-1">
                     0.00 TL
                 </div>
             </div>
         </section>
+        
+        <!-- GeÃ§miÅŸ YÄ±llara Ait Fiyat Tablosu -->
+        <section class="mb-16">
+            <h2 class="text-3xl md:text-4xl font-semibold mb-6 text-slate-800">GeÃ§miÅŸ YÄ±llarda Ã‡eyrek AltÄ±n FiyatlarÄ±</h2>
+            <div class="max-w-md mx-auto bg-white rounded-xl shadow-md border border-slate-200 overflow-hidden">
+                <table class="w-full text-lg">
+                    <thead class="bg-slate-100">
+                        <tr>
+                            <th class="p-3 text-left font-semibold text-slate-700">YÄ±l</th>
+                            <th class="p-3 text-right font-semibold text-slate-700">YÄ±l BaÅŸÄ± Ortalama FiyatÄ±</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-200">
+                        <tr><td class="p-3 text-left">2024</td><td class="p-3 text-right font-mono">~ 3.350 TL</td></tr>
+                        <tr><td class="p-3 text-left">2023</td><td class="p-3 text-right font-mono">~ 1.850 TL</td></tr>
+                        <tr><td class="p-3 text-left">2022</td><td class="p-3 text-right font-mono">~ 1.300 TL</td></tr>
+                        <tr><td class="p-3 text-left">2021</td><td class="p-3 text-right font-mono">~ 750 TL</td></tr>
+                        <tr><td class="p-3 text-left">2020</td><td class="p-3 text-right font-mono">~ 475 TL</td></tr>
+                    </tbody>
+                </table>
+                 <p class="text-xs text-slate-400 p-2 bg-slate-50">*Fiyatlar, ilgili yÄ±lÄ±n Ocak ayÄ± ortalamasÄ±nÄ± temsil etmektedir ve yaklaÅŸÄ±k deÄŸerlerdir.</p>
+            </div>
+        </section>
 
-        <!-- BLOG İÇERİK BÖLÜMÜ -->
-        <section class="text-left max-w-3xl mx-auto border-t border-slate-200 pt-16">
-            <h2 class="text-3xl md:text-4xl font-bold mb-8 text-center text-slate-900">Çeyrek Altın Hakkında Bilmeniz Gerekenler</h2>
+        <!-- BLOG Ä°Ã‡ERÄ°K BÃ–LÃœMÃœ -->
+        <section class="text-left max-w-3xl mx-auto border-t border-slate-200 pt-16 mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold mb-8 text-center text-slate-900">Ã‡eyrek AltÄ±n HakkÄ±nda Bilmeniz Gerekenler</h2>
             <div class="space-y-10 text-slate-600 leading-relaxed text-lg">
                 <div>
-                    <h3 class="text-2xl font-semibold mb-3 text-slate-800">Çeyrek Altın Nedir?</h3>
-                    <p>Çeyrek altın, Türkiye'de en yaygın olarak bilinen ve kullanılan altın türlerinden biridir. Halk arasında "küçük altın" olarak da adlandırılır. Cumhuriyet altınının dörtte biri (1/4) oranındadır. Düğünler, nişanlar, doğum günleri gibi özel günlerde en çok tercih edilen hediye olmasının yanı sıra, küçük birikimlerini altına yatırmak isteyenler için de ideal bir yatırım aracıdır.</p>
+                    <h3 class="text-2xl font-semibold mb-3 text-slate-800">Ã‡eyrek AltÄ±n Nedir?</h3>
+                    <p>Ã‡eyrek altÄ±n, TÃ¼rkiye'de en yaygÄ±n olarak bilinen ve kullanÄ±lan altÄ±n tÃ¼rlerinden biridir. Halk arasÄ±nda "kÃ¼Ã§Ã¼k altÄ±n" olarak da adlandÄ±rÄ±lÄ±r. Cumhuriyet altÄ±nÄ±nÄ±n dÃ¶rtte biri (1/4) oranÄ±ndadÄ±r. DÃ¼ÄŸÃ¼nler, niÅŸanlar, doÄŸum gÃ¼nleri gibi Ã¶zel gÃ¼nlerde en Ã§ok tercih edilen hediye olmasÄ±nÄ±n yanÄ± sÄ±ra, kÃ¼Ã§Ã¼k birikimlerini altÄ±na yatÄ±rmak isteyenler iÃ§in de ideal bir yatÄ±rÄ±m aracÄ±dÄ±r.</p>
                 </div>
                 <div>
-                    <h3 class="text-2xl font-semibold mb-3 text-slate-800">Çeyrek Altının Özellikleri: Gramı ve Ayarı</h3>
-                    <p>Fiziksel özelliklerini bilmek, altın alırken doğru karar vermenize yardımcı olur. Standart bir çeyrek altın <strong>22 ayardır</strong> ve toplam ağırlığı <strong>1.75 gramdır</strong>. Ancak içerisindeki saf altın miktarı (has altın) yaklaşık <strong>1.60 gramdır</strong>. Aradaki fark, altının daha dayanıklı olması için eklenen diğer metallerden kaynaklanır. 22 ayar, altının %91.6 oranında saf altın içerdiği anlamına gelir.</p>
+                    <h3 class="text-2xl font-semibold mb-3 text-slate-800">Ã‡eyrek AltÄ±nÄ±n Ã–zellikleri: GramÄ± ve AyarÄ±</h3>
+                    <p>Fiziksel Ã¶zelliklerini bilmek, altÄ±n alÄ±rken doÄŸru karar vermenize yardÄ±mcÄ± olur. Standart bir Ã§eyrek altÄ±n <strong>22 ayardÄ±r</strong> ve toplam aÄŸÄ±rlÄ±ÄŸÄ± <strong>1.75 gramdÄ±r</strong>. Ancak iÃ§erisindeki saf altÄ±n miktarÄ± (has altÄ±n) yaklaÅŸÄ±k <strong>1.60 gramdÄ±r</strong>. Aradaki fark, altÄ±nÄ±n daha dayanÄ±klÄ± olmasÄ± iÃ§in eklenen diÄŸer metallerden kaynaklanÄ±r. 22 ayar, altÄ±nÄ±n %91.6 oranÄ±nda saf altÄ±n iÃ§erdiÄŸi anlamÄ±na gelir.</p>
                 </div>
                 <div>
-                    <h3 class="text-2xl font-semibold mb-3 text-slate-800">Çeyrek Altın Neden Popüler Bir Yatırım Aracıdır?</h3>
-                    <p>Çeyrek altının popülerliğinin birkaç temel nedeni vardır:</p>
+                    <h3 class="text-2xl font-semibold mb-3 text-slate-800">Ã‡eyrek AltÄ±n Neden PopÃ¼ler Bir YatÄ±rÄ±m AracÄ±dÄ±r?</h3>
+                    <p>Ã‡eyrek altÄ±nÄ±n popÃ¼lerliÄŸinin birkaÃ§ temel nedeni vardÄ±r:</p>
                     <ul class="list-disc list-inside mt-4 space-y-2 pl-4">
-                        <li><strong>Ulaşılabilirlik:</strong> Düşük gramajı sayesinde daha uygun fiyatlıdır ve küçük birikimlerle bile kolayca satın alınabilir.</li>
-                        <li><strong>Likidite:</strong> İhtiyaç anında Türkiye'nin her yerindeki kuyumcularda ve bankalarda kolayca nakde çevrilebilir.</li>
-                        <li><strong>Güvenli Liman:</strong> Altın, tarih boyunca ekonomik belirsizlik dönemlerinde değerini koruyan güvenli bir liman olarak görülmüştür. Çeyrek altın da bu özelliğe sahiptir.</li>
-                        <li><strong>Geleneksel Değer:</strong> Toplumumuzda hediyeleşme kültürünün önemli bir parçası olması, talebin her zaman canlı kalmasını sağlar.</li>
+                        <li><strong>UlaÅŸÄ±labilirlik:</strong> DÃ¼ÅŸÃ¼k gramajÄ± sayesinde daha uygun fiyatlÄ±dÄ±r ve kÃ¼Ã§Ã¼k birikimlerle bile kolayca satÄ±n alÄ±nabilir.</li>
+                        <li><strong>Likidite:</strong> Ä°htiyaÃ§ anÄ±nda TÃ¼rkiye'nin her yerindeki kuyumcularda ve bankalarda kolayca nakde Ã§evrilebilir.</li>
+                        <li><strong>GÃ¼venli Liman:</strong> AltÄ±n, tarih boyunca ekonomik belirsizlik dÃ¶nemlerinde deÄŸerini koruyan gÃ¼venli bir liman olarak gÃ¶rÃ¼lmÃ¼ÅŸtÃ¼r. Ã‡eyrek altÄ±n da bu Ã¶zelliÄŸe sahiptir.</li>
+                        <li><strong>Geleneksel DeÄŸer:</strong> Toplumumuzda hediyeleÅŸme kÃ¼ltÃ¼rÃ¼nÃ¼n Ã¶nemli bir parÃ§asÄ± olmasÄ±, talebin her zaman canlÄ± kalmasÄ±nÄ± saÄŸlar.</li>
                     </ul>
                 </div>
                 <div>
-                    <h3 class="text-2xl font-semibold mb-3 text-slate-800">Çeyrek Altın Alırken Nelere Dikkat Edilmelidir?</h3>
-                    <p>Yatırımınızın güvende olması için çeyrek altın alırken bazı noktalara dikkat etmek önemlidir. Öncelikle, altını güvendiğiniz, tanınmış kuyumculardan veya bankalardan almaya özen gösterin. Aldığınız altının T.C. Darphanesi tarafından basılmış olduğuna ve paketinin açılmamış olmasına dikkat edin. Piyasada "eski tarihli" ve "yeni tarihli" çeyrek altın ayrımı olsa da bu durum, gramaj ve ayar açısından bir fark yaratmaz; her ikisi de aynı değerde satılır.</p>
+                    <h3 class="text-2xl font-semibold mb-3 text-slate-800">Ã‡eyrek AltÄ±n AlÄ±rken Nelere Dikkat Edilmelidir?</h3>
+                    <p>YatÄ±rÄ±mÄ±nÄ±zÄ±n gÃ¼vende olmasÄ± iÃ§in Ã§eyrek altÄ±n alÄ±rken bazÄ± noktalara dikkat etmek Ã¶nemlidir. Ã–ncelikle, altÄ±nÄ± gÃ¼vendiÄŸiniz, tanÄ±nmÄ±ÅŸ kuyumculardan veya bankalardan almaya Ã¶zen gÃ¶sterin. AldÄ±ÄŸÄ±nÄ±z altÄ±nÄ±n T.C. Darphanesi tarafÄ±ndan basÄ±lmÄ±ÅŸ olduÄŸuna ve paketinin aÃ§Ä±lmamÄ±ÅŸ olmasÄ±na dikkat edin. Piyasada "eski tarihli" ve "yeni tarihli" Ã§eyrek altÄ±n ayrÄ±mÄ± olsa da bu durum, gramaj ve ayar aÃ§Ä±sÄ±ndan bir fark yaratmaz; her ikisi de aynÄ± deÄŸerde satÄ±lÄ±r.</p>
                 </div>
+            </div>
+        </section>
+
+        <!-- SÄ±kÃ§a Sorulan Sorular (SSS) BÃ¶lÃ¼mÃ¼ -->
+        <section class="text-left max-w-3xl mx-auto border-t border-slate-200 pt-16">
+            <h2 class="text-3xl md:text-4xl font-bold mb-8 text-center text-slate-900">SÄ±kÃ§a Sorulan Sorular</h2>
+            <div class="space-y-4">
+                <details class="bg-white p-4 rounded-lg shadow-sm border border-slate-200 cursor-pointer">
+                    <summary class="font-semibold text-lg text-slate-800 flex justify-between items-center">
+                        AltÄ±n en ucuz hangi gÃ¼n olur?
+                        <span class="arrow-down transition-transform duration-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                        </span>
+                    </summary>
+                    <p class="mt-3 text-slate-600">AltÄ±n fiyatlarÄ± iÃ§in belirli bir "ucuz gÃ¼n" yoktur. Fiyatlar kÃ¼resel piyasalara baÄŸlÄ± olarak anlÄ±k deÄŸiÅŸir. Genellikle hafta sonlarÄ± piyasalar kapalÄ± olduÄŸu iÃ§in fiyatlar sabit kalÄ±r, ancak hafta iÃ§i her an deÄŸiÅŸiklik gÃ¶sterebilir.</p>
+                </details>
+                <details class="bg-white p-4 rounded-lg shadow-sm border border-slate-200 cursor-pointer">
+                    <summary class="font-semibold text-lg text-slate-800 flex justify-between items-center">
+                        En az zarar ettiren altÄ±n hangisi?
+                         <span class="arrow-down transition-transform duration-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                        </span>
+                    </summary>
+                    <p class="mt-3 text-slate-600">Genellikle iÅŸÃ§ilik maliyeti en dÃ¼ÅŸÃ¼k olan altÄ±n tÃ¼rleri, bozdururken en az zarara uÄŸratÄ±r. Bu nedenle 24 ayar gram altÄ±n ve kÃ¼lÃ§e altÄ±n, yatÄ±rÄ±m iÃ§in en sÄ±k tercih edilen ve alÄ±ÅŸ-satÄ±ÅŸ farkÄ± (makas) en dÃ¼ÅŸÃ¼k olan tÃ¼rlerdir.</p>
+                </details>
+                <details class="bg-white p-4 rounded-lg shadow-sm border border-slate-200 cursor-pointer">
+                    <summary class="font-semibold text-lg text-slate-800 flex justify-between items-center">
+                        2 Ã§eyrek altÄ±n bir yarÄ±m altÄ±n eder mi?
+                         <span class="arrow-down transition-transform duration-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                        </span>
+                    </summary>
+                    <p class="mt-3 text-slate-600">Evet, gramaj ve ayar olarak 2 adet Ã§eyrek altÄ±n, 1 adet yarÄ±m altÄ±na eÅŸittir. Her ikisi de aynÄ± miktarda altÄ±n iÃ§erir ve deÄŸerleri aynÄ±dÄ±r.</p>
+                </details>
+                <details class="bg-white p-4 rounded-lg shadow-sm border border-slate-200 cursor-pointer">
+                    <summary class="font-semibold text-lg text-slate-800 flex justify-between items-center">
+                        AltÄ±n en Ã§ok hangi aylarda artar?
+                         <span class="arrow-down transition-transform duration-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                        </span>
+                    </summary>
+                    <p class="mt-3 text-slate-600">Bunun iÃ§in kesin bir kural olmamakla birlikte, bazÄ± mevsimsel etkiler gÃ¶rÃ¼lebilir. Ã–rneÄŸin, Hindistan gibi Ã¼lkelerdeki dÃ¼ÄŸÃ¼n sezonlarÄ± (genellikle sonbahar ve ilkbahar) veya kÃ¼resel piyasalardaki belirsizliklerin arttÄ±ÄŸÄ± dÃ¶nemlerde altÄ±na olan talep artabilir. Ancak bu bir yatÄ±rÄ±m tavsiyesi deÄŸildir ve her zaman geÃ§erli olmayabilir.</p>
+                </details>
+                <details class="bg-white p-4 rounded-lg shadow-sm border border-slate-200 cursor-pointer">
+                    <summary class="font-semibold text-lg text-slate-800 flex justify-between items-center">
+                        Hangi bilezik bozdururken zarar etmez?
+                         <span class="arrow-down transition-transform duration-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                        </span>
+                    </summary>
+                    <p class="mt-3 text-slate-600">"Ä°ÅŸÃ§iliksiz bilezik" olarak da bilinen 22 ayar burma bilezikler, bozdururken en az deÄŸer kaybeden modellerdir. Ãœzerinde taÅŸ, desen gibi ince iÅŸÃ§ilikler bulunan bileziklerde, satarken iÅŸÃ§ilik maliyeti fiyattan dÃ¼ÅŸÃ¼leceÄŸi iÃ§in kayÄ±p daha fazla olur.</p>
+                </details>
+                <details class="bg-white p-4 rounded-lg shadow-sm border border-slate-200 cursor-pointer">
+                    <summary class="font-semibold text-lg text-slate-800 flex justify-between items-center">
+                        AltÄ±n neye gÃ¶re artar?
+                         <span class="arrow-down transition-transform duration-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                        </span>
+                    </summary>
+                    <p class="mt-3 text-slate-600">AltÄ±n fiyatlarÄ± birÃ§ok faktÃ¶re baÄŸlÄ±dÄ±r. BaÅŸlÄ±calarÄ± ÅŸunlardÄ±r: Ons altÄ±nÄ±n uluslararasÄ± piyasalardaki dolar cinsinden fiyatÄ±, Dolar/TL kuru, kÃ¼resel enflasyon oranlarÄ±, merkez bankalarÄ±nÄ±n faiz kararlarÄ±, jeopolitik riskler ve dÃ¼nyadaki arz-talep dengesi.</p>
+                </details>
             </div>
         </section>
 
@@ -129,57 +269,42 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            // Hesaplayıcı için gerekli HTML elementlerini seçiyoruz
+            // HesaplayÄ±cÄ± iÃ§in gerekli HTML elementlerini seÃ§iyoruz
             const priceInput = document.getElementById('gold-price-input');
             const quantityInput = document.getElementById('gold-quantity-input');
             const calculateBtn = document.getElementById('calculate-btn');
             const resultContainer = document.getElementById('result-container');
 
-            // Sayısal değeri para formatına (TL) çeviren fonksiyon
-            const formatCurrency = (value) => {
-                return new Intl.NumberFormat('tr-TR', { 
-                    style: 'currency', 
-                    currency: 'TRY' 
-                }).format(value);
-            };
+            // SayÄ±sal deÄŸeri para formatÄ±na (TL) Ã§eviren fonksiyon
+            const formatCurrency = (value) => new Intl.NumberFormat('tr-TR', { style: 'currency', currency: 'TRY' }).format(value);
 
-            // Hesaplama işlemini yapan ana fonksiyon
+            // Hesaplama iÅŸlemini yapan ana fonksiyon
             function performCalculation() {
-                // Kullanıcının virgül girmesine olanak tanımak için virgülü noktaya çeviriyoruz
                 const priceString = priceInput.value.replace(',', '.');
                 const quantityString = quantityInput.value;
-
-                // Girdileri sayısal değere çeviriyoruz
                 const price = parseFloat(priceString);
                 const quantity = parseInt(quantityString, 10);
 
-                // Girdilerin geçerli birer sayı olup olmadığını kontrol ediyoruz
                 if (isNaN(price) || isNaN(quantity) || price <= 0 || quantity <= 0) {
                     resultContainer.textContent = formatCurrency(0);
-                    return; // Geçersizse hesaplama yapma
+                    return;
                 }
-
-                // Fiyat ile adedi çarpıyoruz
                 const total = price * quantity;
-                
-                // Sonucu formatlayıp ekrana yazdırıyoruz
                 resultContainer.textContent = formatCurrency(total);
             }
 
-            // 'Hesapla' butonuna tıklandığında hesaplama fonksiyonunu çalıştır
+            // 'Hesapla' butonuna tÄ±klandÄ±ÄŸÄ±nda hesaplama fonksiyonunu Ã§alÄ±ÅŸtÄ±r
             calculateBtn.addEventListener('click', performCalculation);
+            priceInput.addEventListener('keypress', (event) => { if (event.key === 'Enter') performCalculation(); });
+            quantityInput.addEventListener('keypress', (event) => { if (event.key === 'Enter') performCalculation(); });
 
-            // Bonus: Kullanıcı input alanlarındayken Enter tuşuna basarsa da hesaplama yap
-            priceInput.addEventListener('keypress', function(event) {
-                if (event.key === 'Enter') {
-                    performCalculation();
-                }
-            });
-            quantityInput.addEventListener('keypress', function(event) {
-                if (event.key === 'Enter') {
-                    performCalculation();
-                }
-            });
+            // Sosyal Medya PaylaÅŸÄ±m Linklerini Ayarlama
+            const shareUrl = encodeURIComponent(window.location.href);
+            const shareText = encodeURIComponent("GÃ¼ncel Ã§eyrek altÄ±n fiyatlarÄ±na bu siteden bakabilirsiniz:");
+            
+            document.getElementById('whatsapp-share').href = `https://api.whatsapp.com/send?text=${shareText} ${shareUrl}`;
+            document.getElementById('twitter-share').href = `https://twitter.com/intent/tweet?text=${shareText}&url=${shareUrl}`;
+            document.getElementById('facebook-share').href = `https://www.facebook.com/sharer/sharer.php?u=${shareUrl}`;
         });
     </script>
 
