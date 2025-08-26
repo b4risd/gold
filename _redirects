@@ -1,0 +1,4 @@
+# www -> non-www
+https://www.ceyrekaltinnekadar.com/*  https://ceyrekaltinnekadar.com//:splat  301!
+http://www.ceyrekaltinnekadar.com/*   https://ceyrekaltinnekadar.com//:splat  301!
+http://ceyrekaltinnekadar.com/*       https://ceyrekaltinnekadar.com//:splat  301!
